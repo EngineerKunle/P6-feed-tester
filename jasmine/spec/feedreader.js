@@ -21,7 +21,7 @@ $(function () {
          * allFeeds in app.js to be an empty array and refresh the
          * page?
          */
-        it('are defined', function () {
+        it('allFeeds variable is defined', function () {
             
             //check if feeds are presents
             expect(allFeeds).toBeDefined();
@@ -173,7 +173,7 @@ $(function () {
 
         it('first Content should not match second along with each headers', function(done) {
            
-            //compare values we in our variables.
+            //compare values we have in our variables.
             expect(firstItem).not.toBe(secondItem);
             expect(firstHeader === secondHeader).not.toBe(true);
             done();
